@@ -19,15 +19,14 @@ public class MyLinkedList {
             first = last = null;
             return;
         }
-        /*var second = first.getNext();
-        while(current != null)
-        {
-                System.out.println(current.getData());
-                current=current.getNext();
-        }*/
+        var second = first.getNext();
+        first.setNext(null);
+        first = second;
+    }
+
 
     }
 
 
 
-}
+
