@@ -17,5 +17,11 @@ public class TreeNode {
         this.right = null;
     }
 
+    public int getdata() {
+        return data;
+    }
 
-}
+    }
+
+
+
