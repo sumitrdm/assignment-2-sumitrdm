@@ -54,7 +54,10 @@ public class MyBinarySearchTree {
             display(node.getLeft(), level + 1);
             display(node.getRight(), level + 1);
         }
-
-
     }
+
+    public void d2() {
+        System.out.println("number of empty left child " + c);
+    }
+
 }
