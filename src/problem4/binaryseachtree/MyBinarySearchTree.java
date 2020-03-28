@@ -1,8 +1,9 @@
 package problem4.binaryseachtree;
 
 import problem1.node.TreeNode;
+import problem4.myqueue.MyQueue;
 
 public class MyBinarySearchTree {
-    //private myqueue MyQueue;
+    private MyQueue myQueue;
     private TreeNode root;
 }
