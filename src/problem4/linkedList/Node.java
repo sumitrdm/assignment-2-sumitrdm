@@ -16,9 +16,11 @@ public class Node {
         this.data = data;
     }
 
-    public void setNext(Node node) {
+    public Node getNext() {
+        return next;
     }
 
-    public void getNext() {
+    public void setNext(Node next) {
+        this.next = next;
     }
 }
