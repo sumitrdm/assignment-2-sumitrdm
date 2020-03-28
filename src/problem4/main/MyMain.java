@@ -15,7 +15,13 @@ public class MyMain {
     public static void main(String[] args) {
         MyQueue myQueue = new MyQueue();
         MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree(myQueue);
-        
+        myBinarySearchTree.insert(1011);
+        myBinarySearchTree.insert(200);
+        myBinarySearchTree.insert(31);
+        myBinarySearchTree.insert(3);
+        myBinarySearchTree.insert(15);
+
+
     }
 
 }
