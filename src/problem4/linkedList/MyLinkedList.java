@@ -1,5 +1,7 @@
 package problem4.linkedList;
 
+import problem1.node.TreeNode;
+
 public class MyLinkedList {
     private Node first;
     private Node last;
@@ -57,6 +59,11 @@ public class MyLinkedList {
             }
             current = current.getNext();
         }
+        return null;
+    }
+
+    public TreeNode search(int data) {
+
         return null;
     }
 }
