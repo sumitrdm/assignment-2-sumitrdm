@@ -41,4 +41,7 @@ public class Student {
     public void setAppearing(int appearing) {
         this.appearing = appearing;
     }
+
+
 }
+
