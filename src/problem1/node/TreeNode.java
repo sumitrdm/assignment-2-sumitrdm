@@ -17,12 +17,16 @@ public class TreeNode {
         this.right = null;
     }
 
-    public int getdata() {
+    public int getData() {
         return data;
     }
 
     public void setData(int data) {
         this.data = data;
+    }
+
+    public TreeNode getLeft() {
+        return left;
     }
 
 
