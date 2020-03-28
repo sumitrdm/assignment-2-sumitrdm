@@ -11,4 +11,10 @@ public class Student {
     int baclogcount;
     int appearing;
 
+    public Student(String name, int baclogcount, int appearing) {
+        this.appearing = appearing;
+        this.baclogcount = baclogcount;
+        this.name = name;
+
+    }
 }
