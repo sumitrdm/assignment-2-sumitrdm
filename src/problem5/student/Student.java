@@ -17,4 +17,28 @@ public class Student {
         this.name = name;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getBaclogcount() {
+        return baclogcount;
+    }
+
+    public void setBaclogcount(int baclogcount) {
+        this.baclogcount = baclogcount;
+    }
+
+    public int getAppearing() {
+        return appearing;
+    }
+
+    public void setAppearing(int appearing) {
+        this.appearing = appearing;
+    }
 }
