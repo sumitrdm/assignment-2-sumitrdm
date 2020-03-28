@@ -33,6 +33,13 @@ public class TreeNode {
         this.left = left;
     }
 
+    public TreeNode getRight() {
+        return right;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
     }
 
 
